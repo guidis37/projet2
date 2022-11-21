@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) { 
+
+nav {
+    flex-direction: column;
+}
+
+nav li {
+
+text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-top: none;
+    border-bottom: 1px #0065fc solid;
+    padding-bottom: 20px;
+}
+}

@@ -1,0 +1,250 @@
+body {
+    font-family: "raleway", sans-serif;
+    margin: 50px 50px 50px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+nav img {
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+nav li {
+    margin: 0 10px 0 20px;
+    color: #070707;
+ 
+
+}
+a {
+    text-decoration: none;
+    color: #070707;
+}
+a:hover {
+    color: #0065fc;
+    border-top: 1px #0065fc solid;
+    padding-top: 20px;
+
+} 
+
+p {
+    text-decoration: none;
+}
+
+div {
+    display: flex;
+}
+
+.location {
+    border: 1px solid #F2F2F2;
+    height: 49px;
+    width: 50px;
+    border-top-left-radius:  15px;
+    border-bottom-left-radius: 15px;
+    background-color: #f2f2f2;
+    
+}
+
+.fa-location-dot {
+    margin-left: 18px;
+    margin-top: 14px;
+
+}
+   
+.text-ville {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    border: 1px solid #F2F2F2;
+    padding-left: 10px;
+    
+    
+}
+.rechercher {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0065FC;
+    padding: 10px;
+    border-radius: 0 15px 15px 0;
+    border: 0;
+
+}
+
+.search {
+    display: none;
+}
+
+
+
+.margfiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.Filtres {
+    display: flex;
+    align-items: center;
+}
+
+.margfiltretitle {
+    margin-right: 20px;
+}
+
+.filtretexticons {
+    border: 2px solid #d9d9d9;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.filtretexticons:hover {
+    background-color: #DEEBFF;
+}
+
+.filtretext {
+    height: 50px;
+    padding-right: 40px;
+    border-radius: 0 25px 25px 0;
+    padding-top: 14px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.filtreicons {
+    width: 50px;
+    height: 50px;
+    color: #0065FC;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.information {
+    border-radius: 2px 2px 2px 2px;
+    padding-right: 20px;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+small {
+
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.fas fa-info {
+    color: #0065FC;
+}
+
+
+.containerhebergements {
+
+    background: #F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    
+
+
+}
+
+.containercard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.cardlink {
+    width: 33%;
+}
+
+.imghebergements {
+
+    width: 100%;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 5px solid #FFFFFF
+}
+
+.cardhebergements {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.fa-solid.fa-star {
+    color: #0065FC;
+}
+
+.fa-solid.fa-star.gris {
+    color: #F2F2F2;
+}
+
+.containerpop {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    padding-left: 30px;
+    width: 30%;
+
+}
+
+.poptitle {
+    justify-content: space-between;
+}
+
+.fa-solid.fa-chart-line {
+    color: #0065FC;
+}
+
+.containercardpop {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cardpop {
+    border-radius: 20px;
+    background: #FFFFFF;
+    height: 144px;
+    width: 343px;
+    padding-bottom: 30px;
+}
+
+.cardpoptext {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgpop {
+    height: 144px;
+    width: 137px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+
